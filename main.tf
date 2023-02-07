@@ -7,7 +7,7 @@ provider "aws" {
 }
 
 module "ec2_instance" {
-  source  = "terraform-aws-modules/ec2-instance/aws"
+  source  = "foobar-aws-modules/ec2-instance/aws"
   version = "~> 3.0"
 
   name = "single-instance"
